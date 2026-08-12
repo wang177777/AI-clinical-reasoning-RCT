@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+output/
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.pkl
+data/*.pickle
+figures/*.xlsx
+figures/*.xls
+figures/*.csv
+figures/*.pkl
+figures/*.pickle
