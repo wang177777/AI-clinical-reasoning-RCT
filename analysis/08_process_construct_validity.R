@@ -77,7 +77,7 @@ print(confint(support_model)["groupAssisted", ])
 
 cat(
   "\nINTERPRETATION NOTE\n",
-  "Answer length is post-randomisation and may mediate the intervention effect. ",
+  "Answer length is post-randomization and may mediate the intervention effect. ",
   "Conditioning on it can block mediation or induce collider bias. These group ",
   "coefficients do not estimate treatment effects and their signs must not be ",
   "interpreted as evidence that DeepSeek lowered actual performance.\n",

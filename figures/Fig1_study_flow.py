@@ -58,15 +58,15 @@ def make_figure():
     ax.axis("off")
 
     box(ax, 0.18, 0.86, 0.51, 0.09,
-        "Platform records assessed before randomisation\n(n=226)",
+        "Platform records assessed before randomization\n(n=226)",
         face="#EEF3FB", bold=True)
     box(ax, 0.74, 0.85, 0.24, 0.11,
-        "Excluded before\nrandomisation (n=52)\nScreening, testing, invalid,\nor duplicate records",
+        "Excluded before\nrandomization (n=52)\nScreening, testing, invalid,\nor duplicate records",
         face="#FAFAFA", dashed=True, size=8.4)
     arrow(ax, (0.69, 0.905), (0.74, 0.905))
     arrow(ax, (0.435, 0.86), (0.435, 0.78))
 
-    box(ax, 0.29, 0.70, 0.29, 0.08, "Randomised 1:1\n(n=174)", face="#FCECEC", bold=True)
+    box(ax, 0.29, 0.70, 0.29, 0.08, "Randomized 1:1\n(n=174)", face="#FCECEC", bold=True)
     ax.plot([0.435, 0.435], [0.70, 0.65], color="#343A40", linewidth=1.5)
     ax.plot([0.25, 0.75], [0.65, 0.65], color="#343A40", linewidth=1.5)
     arrow(ax, (0.25, 0.65), (0.25, 0.59))

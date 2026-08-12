@@ -92,19 +92,19 @@ if (anyNA(dat$score_pct)) stop("Unrecognised dimension while applying theoretica
 
 contrasts(dat$group) <- contr.sum(2)
 contrasts(dat$dimension) <- contr.sum(5)
-fit_normalised <- lmer(
+fit_normalized <- lmer(
   score_pct ~ group * dimension + (1 | participant),
   data = dat,
   REML = TRUE
 )
 cat("\nPERCENTAGE-OF-MAXIMUM OMNIBUS TESTS\n")
-print(anova(fit_normalised, type = 3, ddf = "Satterthwaite"))
+print(anova(fit_normalized, type = 3, ddf = "Satterthwaite"))
 
 # Equal-weight participant-level composite: arithmetic mean of the five
 # percentage-of-maximum dimension scores.
 equal_weight <- aggregate(score_pct ~ participant + group, data = dat, FUN = mean)
 names(equal_weight)[3] <- "equal_weight_pct"
-cat("\nEQUAL-WEIGHT NORMALISED COMPOSITE\n")
+cat("\nEQUAL-WEIGHT NORMALIZED COMPOSITE\n")
 print(aggregate(equal_weight_pct ~ group, data = equal_weight,
                 FUN = function(x) c(n = length(x), mean = mean(x), sd = sd(x))))
 print(t.test(equal_weight_pct ~ group, data = equal_weight, var.equal = FALSE))

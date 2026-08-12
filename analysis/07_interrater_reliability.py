@@ -13,10 +13,10 @@ rater_b = pd.read_excel(DATA / "rater_B_scores.xlsx")
 outcomes = [
     ("Grand total", "grand_total"),
     ("Case 1: Pneumonia", "c1_total"),
-    ("Case 2: Anaemia", "c2_total"),
+    ("Case 2: Anemia", "c2_total"),
     ("Case 3: Gout", "c3_total"),
     ("Case 4: Appendicitis", "c4_total"),
-    ("Case 5: Diarrhoea", "c5_total"),
+    ("Case 5: Diarrhea", "c5_total"),
     ("Diagnosis", "dx_total"),
     ("Investigation ordering", "exam_total"),
     ("Treatment planning", "tx_total"),

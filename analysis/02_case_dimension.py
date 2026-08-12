@@ -18,10 +18,10 @@ outcomes += [
     for index, label in enumerate(
         [
             "Pneumonia",
-            "Iron-deficiency anaemia",
+            "Iron-deficiency anemia",
             "Acute gout",
             "Appendicitis",
-            "Paediatric diarrhoea",
+            "Pediatric diarrhea",
         ],
         start=1,
     )

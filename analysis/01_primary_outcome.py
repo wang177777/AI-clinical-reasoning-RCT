@@ -1,4 +1,4 @@
-"""Primary outcome: reported randomised comparison and bootstrap confidence intervals."""
+"""Primary outcome: reported randomized comparison and bootstrap confidence intervals."""
 from pathlib import Path
 
 import pandas as pd, numpy as np

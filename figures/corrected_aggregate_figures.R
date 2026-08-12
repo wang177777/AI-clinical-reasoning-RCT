@@ -93,8 +93,8 @@ f3b <- ggplot(effects, aes(d, dimension)) +
   theme_trial + theme(legend.position = "none", panel.grid.major.x = element_line(colour = grid_col, linewidth = 0.35))
 
 cases <- data.frame(
-  case = factor(rep(c("Pneumonia", "Anaemia", "Gout", "Appendicitis", "Paediatric\ndiarrhoea"), 2),
-    levels = c("Pneumonia", "Anaemia", "Gout", "Appendicitis", "Paediatric\ndiarrhoea")),
+  case = factor(rep(c("Pneumonia", "Anemia", "Gout", "Appendicitis", "Pediatric\ndiarrhea"), 2),
+    levels = c("Pneumonia", "Anemia", "Gout", "Appendicitis", "Pediatric\ndiarrhea")),
   group = factor(rep(c("DeepSeek-assisted", "Conventional resources"), each = 5),
     levels = c("DeepSeek-assisted", "Conventional resources")),
   mean = c(15.3735632184, 15.5747126437, 14.3160919540, 16.5632183908, 15.6609195402,
