@@ -1,6 +1,6 @@
-# Web-Based DeepSeek Assistance for Clinical Decision-Making Among Physicians in China: Randomized Controlled Trial
+# Dimension-specific effects of DeepSeek assistance on clinical decision-making by physicians: a randomized controlled trial
 
-Analysis and figure-construction code accompanying the prospective, 2-arm, parallel-group randomized controlled trial prepared for the *Journal of Medical Internet Research*.
+Analysis and figure-construction code accompanying the 2-arm, parallel-group randomized controlled trial prepared for the *Journal of the American Medical Informatics Association*.
 
 ## Trial overview
 
@@ -46,7 +46,7 @@ The figure script contains the unrounded aggregate values underlying the rounded
 
 ## Data availability
 
-Participant-level data, source records, identifiable responses, recordings, interaction logs, the data dictionary, and standalone aggregate-result data files are not included in this repository. Aggregate findings are reported in the manuscript and multimedia appendix. See [data/README.md](data/README.md) for the private input schemas used by the code.
+Participant-level data, source records, identifiable responses, recordings, interaction logs, the data dictionary, and standalone aggregate-result data files are not included in this repository. Aggregate findings are reported in the manuscript and Supplementary Material. See [data/README.md](data/README.md) for the private input schemas used by the code.
 
 ## Requirements
 
